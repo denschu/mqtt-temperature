@@ -1,0 +1,26 @@
+{
+  "author": "Dennis Schulte <mail@dennis-schulte.de>",
+  "name": "mqtt-temperature",
+  "description": "todo",
+  "version": "1.0.0",
+  "keywords": ["mqtt", "automation"],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/denschu/mqtt-temperature.git"
+  },
+  "main": "mqtt-exec",
+  "bin": {
+    "mqtt-exec": "mqtt-exec.js"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "dependencies": {
+    "mqtt":">=0.2.0",
+    "optimist":">=0.3.1",
+    "npmlog" : ">=0.0.2"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {}
+}
+
